@@ -1,20 +1,27 @@
-import CTASection from "@/components/CTASection";
+import DecorativeBackground from "@/components/DecorativeBackground";
+import FinalCTASection from "@/components/FinalCTASection";
 import Footer from "@/components/Footer";
 import GallerySection from "@/components/GallerySection";
+import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
-import Navbar from "@/components/Navbar";
-import TestimonialsSection from "@/components/TestimonialsSection";
+import SectionSeparator from "@/components/SectionSeparator";
+import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Page() {
   return (
     <main className="relative overflow-hidden">
-      <Navbar />
+      <DecorativeBackground />
+      <Header />
       <HeroSection />
+      <SectionSeparator />
       <HowItWorksSection />
+      <SectionSeparator />
       <GallerySection />
-      <TestimonialsSection />
-      <CTASection />
+      <SectionSeparator />
+      <TestimonialSection />
+      <SectionSeparator />
+      <FinalCTASection />
       <Footer />
     </main>
   );

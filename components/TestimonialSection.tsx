@@ -2,9 +2,9 @@ import Image from "next/image";
 import FadeInSection from "./ui/FadeInSection";
 import SectionContainer from "./ui/SectionContainer";
 
-export default function TestimonialsSection() {
+export default function TestimonialSection() {
   return (
-    <section className="section-divider py-8 md:py-12">
+    <section className="py-8 md:py-12">
       <SectionContainer>
         <FadeInSection>
           <article className="mx-auto flex max-w-3xl flex-col items-center gap-5 rounded-[2.5rem] bg-white/90 p-5 shadow-soft md:flex-row md:p-7">
