@@ -15,6 +15,3 @@ body {
     radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.45) 0 7%, transparent 7%);
 }
 
-.section-divider {
-  border-top: 2px dashed rgba(124, 158, 206, 0.35);
-}

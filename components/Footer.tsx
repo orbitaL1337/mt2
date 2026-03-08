@@ -3,7 +3,7 @@ import SectionContainer from "./ui/SectionContainer";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/60 bg-white/40 py-6">
+    <footer className="bg-white/40 py-6">
       <SectionContainer>
         <ul className="flex flex-col items-center justify-center gap-4 text-sm font-bold text-ink/70 md:flex-row md:gap-10">
           <li className="inline-flex items-center gap-2">

@@ -4,7 +4,7 @@ import SectionContainer from "./ui/SectionContainer";
 
 export default function CTASection() {
   return (
-    <section className="section-divider py-16">
+    <section className="py-16">
       <SectionContainer>
         <FadeInSection className="rounded-[3rem] bg-sky-pale/80 px-6 py-14 text-center shadow-soft md:px-10">
           <h2 className="font-display text-5xl text-ink md:text-6xl">Zamów swoją metryczkę już dziś!</h2>

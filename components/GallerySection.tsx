@@ -6,7 +6,7 @@ import SectionContainer from "./ui/SectionContainer";
 
 export default function GallerySection() {
   return (
-    <section className="section-divider py-16">
+    <section className="py-16">
       <SectionContainer>
         <FadeInSection>
           <h2 className="text-center font-display text-5xl text-ink">Nasze przykładowe realizacje</h2>

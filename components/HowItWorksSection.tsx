@@ -7,7 +7,7 @@ const icons = [FileImage, ClipboardCheck, Gift];
 
 export default function HowItWorksSection() {
   return (
-    <section className="section-divider bg-white/45 py-16">
+    <section className="bg-white/45 py-16">
       <SectionContainer>
         <FadeInSection>
           <h2 className="text-center font-display text-5xl text-ink">Jak to działa?</h2>
