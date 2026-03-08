@@ -4,7 +4,7 @@ import { navItems } from "@/lib/data";
 import PrimaryButton from "./ui/PrimaryButton";
 import SectionContainer from "./ui/SectionContainer";
 
-export default function Navbar() {
+export default function Header() {
   return (
     <header className="pt-5">
       <SectionContainer>

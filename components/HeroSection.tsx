@@ -1,7 +1,7 @@
-import Image from "next/image";
 import PrimaryButton from "./ui/PrimaryButton";
 import FadeInSection from "./ui/FadeInSection";
 import SectionContainer from "./ui/SectionContainer";
+import PosterCard from "./PosterCard";
 
 export default function HeroSection() {
   return (
@@ -20,19 +20,23 @@ export default function HeroSection() {
 
         <FadeInSection delay={0.1} className="relative mx-auto w-full max-w-[500px]">
           <div className="relative h-[370px]">
-            <Image
-              src="/assets/posters/poster-zosia.svg"
+            <PosterCard
+              image="/assets/posters/poster-zosia.svg"
               alt="Przykładowa metryczka Zosia"
-              width={280}
-              height={360}
-              className="absolute left-3 top-4 rotate-[-2deg] rounded-2xl border-8 border-white shadow-soft-lg"
+              variant="hero"
+              rotation="rotate-[-2deg]"
+              size="lg"
+              className="absolute left-3 top-4"
+              priority
             />
-            <Image
-              src="/assets/posters/poster-olivier.svg"
+            <PosterCard
+              image="/assets/posters/poster-olivier.svg"
               alt="Przykładowa metryczka Olivier"
-              width={280}
-              height={360}
-              className="absolute right-0 top-10 rotate-[2deg] rounded-2xl border-8 border-white shadow-soft-lg"
+              variant="hero"
+              rotation="rotate-[2deg]"
+              size="lg"
+              className="absolute right-0 top-10"
+              priority
             />
           </div>
         </FadeInSection>
